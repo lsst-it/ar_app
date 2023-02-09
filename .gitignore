@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# bash
+*ca-production.crt
+*ca-dev.crt
+*.jar
+credentials.ini
