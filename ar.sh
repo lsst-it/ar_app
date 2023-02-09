@@ -155,12 +155,12 @@ case "$1" in
           ;;
       esac
     else
-      echo "Missing Username  ./bash_ar.sh block <username> vpn|ipa|all"
+      echo "Missing Username  ./ar.sh block <username> vpn|ipa|all"
     fi
     ;;
   "help"|*)
     HELP='
-    Usage: ./bash_ar.sh [options]
+    Usage: ./ar.sh [options]
     
     list all|block|active        List IPA Users or List just the Active/Block ones
     vpn connected|blocked        List VPN Connected Users or the Connected that are Blocked in IPA
